@@ -1,7 +1,7 @@
 import '../public/style.scss'
 import AboutMe from './AboutMe/AboutMe'
 import AboutTherapy from './AboutTherapy/AboutTherapy'
-import Faq from './Faq/FAQ'
+import Faq from './Faq/Faq'
 import Footer from './Footer/Footer'
 import HomePage from './HomePage/HomePage'
 
