@@ -1,0 +1,87 @@
+.about-me {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  gap: 5rem;
+  background: #bf8079;
+  text-shadow: 1px 1px 1px #000;
+
+  h2 {
+    font-size: 3rem;
+    color: #fff;
+  }
+
+  .about-me__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    font-size: 1rem;
+    line-height: 1.6;
+    text-align: justify;
+
+    .about-me__text-wrapper {
+      position: relative;
+      color: white;
+      padding: 3.5rem;
+      max-width: 700px;
+    }
+
+    /* Linha horizontal superior começando depois da flor */
+    .about-me__text-wrapper::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 140px; /* largura da imagem */
+      right: 0;
+      height: 1px;
+      background-color: white;
+    }
+
+    /* Linha vertical esquerda começando abaixo da flor */
+    .about-me__text-wrapper::after {
+      content: "";
+      position: absolute;
+      top: 140px; /* altura da imagem */
+      bottom: 0;
+      left: 0;
+      width: 1px;
+      background-color: white;
+    }
+
+    /* Linhas extras */
+    .right-line {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      width: 1px;
+      background-color: white;
+    }
+
+    .bottom-line {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 1px;
+      background-color: white;
+    }
+
+    /* Imagem decorativa no canto */
+    .corner-img {
+      position: absolute;
+      top: -120px;
+      left: -120px;
+      width: 300px;
+      height: 300px;
+      pointer-events: none;
+    }
+  }
+
+  img {
+    max-height: 380px;
+  }
+}

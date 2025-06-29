@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100..800&family=Ms+Madi&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100..800&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Ms+Madi&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+@mixin logo-style($size) {
+    font-family: "Ms Madi", cursive;
+    font-size: $size;
+    font-weight: 400;
+}
+
+@mixin title-primary($size) {
+    font-family: "Ms Madi", cursive;
+    font-size: $size;
+    font-weight: 400;
+}
+
+
+
+html {
+  scroll-behavior: smooth;
+  --font: "Lato", sans-serif;
+  --font-title: "Playfair Display", serif;
+  --font-size: 1.2rem;
+  --color: #000;
+  --color-light: #fff;
+  --color-rosy: #BF8079;
+  --radius: 5px;
+}
+
+body,
+button {
+  font-size: var(--font-size);
+  font-family: var(--font);
+}
+
+h2,
+h3 {
+  font-family: var(--font-title);
+}
+
+ul {
+  list-style: none;
+}
+
+hr {
+  border: 2px solid black;
+  margin: 2rem auto;
+}
