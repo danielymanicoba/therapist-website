@@ -6,7 +6,7 @@ const Header = () => {
         <h1>Letícia Campos</h1>
         <ul className='header__nav'>
           <li>
-            <a href="#terapia">SERVIÇOS</a>
+            <a href="#terapia">TERAPIA</a>
           </li>
           <li>
             <a href="#sobre">SOBRE</a>

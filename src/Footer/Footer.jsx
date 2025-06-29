@@ -6,13 +6,13 @@ const Footer = () => {
             <div className="footer-infos">
                     <h3>Letícia Campos</h3>
                 <div>
-                    <p>Psicóloga - CRP 92/34214</p>
+                    <p>Psicóloga - CRP 04/79986</p>
                     <p>Atendimento online – Sigilo e flexibilidade.</p> 
                 </div>
                 <div>
                     <p>Contato</p>
-                    <p>@leticiacampos</p>
-                    <p>99839-7823</p>
+                    <p>@psi.leticiacamposs</p>
+                    <p>(37) 99982-3709</p>
                 </div>
 
             </div>
