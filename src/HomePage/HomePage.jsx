@@ -1,6 +1,6 @@
 import './HomePage.scss'
 import Header from '../Header/Header'
-import borboleta from '../assets/borboleta.svg'
+import borboleta from '../assets/borboleta.png'
 import Button from '../Button/Button'
 
 const HomePage = () => {
