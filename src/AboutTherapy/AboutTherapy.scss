@@ -18,6 +18,13 @@
         font-size: 3rem;
         text-shadow: 1px 1px 2px #999;
     }
+
+    @media screen and (max-width: 768px) {
+        h2 {
+            font-size: 2rem;
+            text-align: center;
+        }  
+    }
 }
 
 .AboutTherapy__cards {
@@ -53,6 +60,24 @@
         >p {
             font-size: 15px;
             text-align: justify;
+        }
+    }
+
+    @media screen and (max-width: 768px) {
+
+        justify-content: center;
+        >div {
+            width: 150px;
+            height: 200px;
+            gap: 10px;
+
+            >h3 {
+            font-size: 1rem;
+            }
+
+            >p {
+                font-size: 0.7rem;
+            }
         }
     }
 }

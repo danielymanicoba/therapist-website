@@ -21,4 +21,21 @@
         text-align: center;
         max-width: 750px;
     }
+
+    @media screen and (max-width: 768px) {
+        
+        gap: 50px;
+        padding: 2rem;
+
+        h2 {
+            font-size: 2rem;
+            text-align: center;
+            padding: 0 1rem;
+        }
+
+        >img {
+            width: 150px;
+        }
+        
+    }
 }
